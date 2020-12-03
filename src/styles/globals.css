@@ -1,0 +1,33 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css";
+
+.main-navbar {
+  margin-top: 1rem;
+}
+
+.navbar-logo {
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  max-height: 4rem !important;
+}
+
+.navbar-item {
+  font-size: 1.4rem;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin: 2rem 0;
+  padding: 2rem 0 4rem;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+}
+
+.grid-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
