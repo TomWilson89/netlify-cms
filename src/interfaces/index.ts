@@ -11,3 +11,11 @@ export type Repo = {
   html_url?: string;
   name?: string;
 };
+
+export type Post = {
+  readonly title: string;
+  readonly coverImage: string;
+  readonly dateFormatted: string;
+  readonly bodyHtml: any;
+  readonly slug: string;
+};
