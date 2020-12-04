@@ -15,7 +15,6 @@ const BlogPost = ({ post }: Props) => {
   return (
     <Layout title={`${post.title} | Blog`}>
       <Link href="/blog">
-        {" "}
         <a className="button mb-4"> All entries</a>
       </Link>
       <div
